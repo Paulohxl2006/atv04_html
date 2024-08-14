@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados</title>
+</head>
+
+<body>
+
+<h2 align="center">Agende sua consultoria aqui</h2>
+
+<table bgcolor="lightgreen" border="50" width="900" height="800" align="center">
+    <tr>
+        <form >
+        <td>
+            <fieldset>
+                <legend>Dados do dono</legend>
+<table border="0" width="250" height="600" >
+
+
+    <tr>
+        <td>
+
+            
+
+    <tr>
+        <br />
+        <td><label>Seu Nome:</label></td>
+        <td><input required required type="text" id="nome" name="nome" size="30" maxlength="20"
+                minlength="1" placeholder=" Digite seu nome"></td>
+    </tr>
+    <tr>
+        <td><label>Seu Sobrenome:</label></td>
+        <td><input required required type="text" id="sobrenome" name="sobrenome" size="30" maxlength="20"
+                minlength="1" placeholder=" Digite seu sobrenome"></td>
+    </tr>
+    <tr>
+        <td><label>Seu email:</label></td>
+        <td><input required required type="email" id="mail" name="mail" size="30" maxlength="20"
+                minlength="1" placeholder=" Digite seu email"> </td>
+
+
+
+
+</td>
+</tr>
+<tr>
+<td><label>Telefone</label></td>
+<td><input required required type="text" id="tel" name="tel" size="30" maxlength="20" minlength="1"
+placeholder="(XX) XX XXXXX-XXXX"></td>
+</tr>
+<tr>
+<td><label>Data de nascimento</label></td>
+<td><input required required type="date" id="data" name="data" max="2006-12-31" min="1943-01-01">
+</td>
+</tr>
+
+<tr>
+<td>
+<label>Sexo</label>
+</td>
+<td>
+<label><input required required type="radio" id="sex" name="sexo" value="M">
+Masculino</label>
+<label><input required required type="radio" id="sex" name="sexo" value="F">
+Feminino</label>
+
+<label><input required required type="radio" id="sex" name="sexo" value="-">
+Outro</label>
+</td>
+</tr>
+
+<tr>
+<td>
+<label>Renda mensal:</label>
+</td>
+<td>
+<label>
+<input required type="radio" id="rand" name="renda" value="-">
+1000 ou menos</label>
+<label>
+<input required type="radio" id="rand" name="renda" value="-">
+1001 à 3500 </label>
+<br>
+<label>
+<input required type="radio" id="rand" name="renda" value="-">
+1001 à 7000 </label>
+
+<label>
+<input required type="radio" id="rand" name="renda" value="-">
+7000 ou mais </label><br>
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+<label> Estado</label>
+</td>
+<td>
+<select required type="combobox" id="estado" name="estado" value="mg">
+<option value="">Selecione um estado</option>
+
+<optgroup label="Norte">
+<option value="ac">Acre</option>
+<option value="am">Amazonas</option>
+<option value="ap">Amapá</option>
+<option value="pa">Pará</option>
+<option value="ro">Rondônia</option>
+<option value="rr">Roraima</option>
+<option value="to">Tocantins</option>
+
+</optgroup>
+
+<optgroup label="Nordeste">
+<option value="al">Alagoas</option>
+<option value="ba">Bahia</option>
+<option value="ce">Ceará</option>
+<option value="ma">Maranhão</option>
+<option value="mb">Paraíba</option>
+<option value="pe">Pernambuco</option>
+<option value="pi">Piauí</option>
+<option value="se">Sergipe</option>
+<option value="rn">Rio grande do norte</option>
+</optgroup>
+
+<optgroup label="Centro-Oeste">
+<option value="df">Distrito Federal</option>
+<option value="go">Goiás</option>
+<option value="ms">Mato Grosso do Sul</option>
+<option value="mt">Mato Grosso</option>
+</optgroup>
+
+<optgroup label="Sudeste">
+<option value="es">Espírito Santo</option>
+<option value="mj">Minas Gerais</option>
+<option value="rj">Rio de Janeiro</option>
+<option value="sp">São Paulo</option>
+</optgroup>
+
+<optgroup label="Sul">
+<option value="pr">Paraná</option>
+<option value="rs">Rio Grande do Sul</option>
+<option value="sc">Santa Catarina</option>
+</optgroup>
+</select>
+</td>
+</tr>
+<tr>
+<td>
+<label>Descreva sua rotina:</label>
+</td>
+<td>
+<textarea name="" id="" rows="4" cols="25" maxlength="230"></textarea>
+</td>
+</tr>
+
+<tr>
+<td>
+<label>Anexar land page da pagina </label>
+</td>
+<td>
+<input required required type="file">
+</td>
+</tr>
+
+
+
+
+</table>
+</fieldset>
+        </td>
+
+
+
+
+
+
+        <td>
+<fieldset>
+    <legend>Dados da empresa</legend>
+
+<table  border="0" width="450" height="615">
+
+
+<tr>
+    <td>
+
+           
+                
+        <tr>
+
+            <td><label>Idade da empresa:</label></td><td>
+                <input required type="number" id="idade" name="idade" min="0" max="10000">
+            </td>
+        </tr>
+        
+
+        <tr>
+            <td>
+                <label>Cor principal da logo:</label>
+            </td>
+            <td>
+                <input required type="color" id="cor" name="cor">
+            </td>
+        </tr>
+
+        <tr>
+
+            <td><label>Quantidade de funcionários:</label></td><td>
+                <input required type="number" id="funciona" name="funciona" min="1" max="1000">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Mes de fundação da empresa :</label>
+            </td>
+            <td>
+                <input required type="month">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label> Horario de funcionamento:</label>
+            </td>
+            <td>
+            <label>De:</label>
+            <input required type="time">
+            
+            <label>às:</label>
+            <input required type="time">
+</td>
+</tr>
+
+<tr>
+    <td>
+<label> Data e hora da consulta :</label></td>
+<td><input required type="datetime-local"></td>
+</tr>
+
+<tr><td>
+<label> Telefone</label></td><td>
+<input required type="tel"></td></tr>
+
+
+<tr><td>
+<label> Protocolo do site:</label></td> <td>
+<input required list="navegadores" />
+<datalist id="navegadores" name="navegadores">
+
+    <option value="HTTP"></option>
+    <option value="FTP"></option>
+    <option value="SMTP"></option>
+    <option value="DNS"></option>
+</datalist>
+</td></tr>
+
+<tr><td>
+<label> URL do Site :</label></td> <td>
+<input required type="url"> </td></tr>
+
+
+
+<tr><td>
+    <label> Renda mensal(lucro):</label></td> <td>
+    <input required list="renda" />
+    <datalist id="renda" name="renda">
+    
+        <option value="500 ou menos"></option>
+        <option value="501 à 1500"></option>
+        <option value="1501 à 5000"></option>
+        <option value="5000 ou mais"></option>
+    </datalist>
+    </td></tr>
+
+
+
+
+</td>
+</tr>
+
+
+
+
+</table>
+
+
+
+
+
+
+</fieldset>
+
+
+
+
+        </td>
+
+        <tr>
+            <td colspan="2">
+                
+<br><br>
+            <input required align="right" type="submit" value="Confirmar" id="enviar" name="enviar">
+            <input required type="reset" value="Limpar formulario" id="enviar" name="enviar">
+</td>
+            </tr>
+    </form>
+    </tr>
+</table>
+</body>
+
+</html>
